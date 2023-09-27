@@ -1,0 +1,50 @@
+[spur/myweblogs]
+owner = admin
+version = 8.0.5
+modtime = 1600150250.440979000
+
+[hubtown/spur]
+owner = admin
+version = 8.0.5
+modtime = 1601256158.168515000
+
+[app/install]
+version = 9.0.5
+modtime = 1695774366.228009000
+
+[app/install/install_source_checksum]
+version = 8.0.0
+modtime = 1601426109.146316000
+
+[transforms/spur_tester]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.0.5
+modtime = 1601447932.531737000
+
+[collections/spur_cache]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.0.5
+modtime = 1602032658.604628000
+
+[spur/spur_config]
+owner = admin
+version = 9.0.5
+modtime = 1695774366.212867000
+
+[views/health]
+owner = admin
+version = 8.2.6
+modtime = 1653968870.722488000
+
+[nav/default]
+version = 8.2.6
+modtime = 1653868034.396560000
+
+[passwords/credential%3ATA-spur%3Aspur_api_key%3A]
+owner = admin
+version = 9.0.5
+modtime = 1695774366.196209000
